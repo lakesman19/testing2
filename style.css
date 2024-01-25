@@ -191,7 +191,7 @@ header {
   row-gap: 2rem;
   padding-top: 3rem;
 }
-.page .top {
+ .top {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -392,7 +392,13 @@ tbody tr {
   color: #0267fd;
   display: none;
 }
+#close{
+  display: none;
+}
 @media screen and (min-width: 250px) and (max-width: 795px) {
+  #close{
+  display: block;
+}
   .container {
     display: flex;
     width: 100%;
